@@ -15,17 +15,17 @@
 ## 📈 Progress:
 - [x] Sign In Screen
   - [ ] Verification if exist an account
-- [ ] Tela New Account
-  - [ ] Mask to phone number
+- [ ] New Account Screen
+  - [ ] Verificatin Password
 
 ---
 
 ## 💻 Screens
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/103972585/226777111-7f69140a-74eb-43b4-b0de-087ccf39daa7.gif"/>
+  <img src="https://user-images.githubusercontent.com/103972585/227754333-7df722ec-d169-4744-a879-9afc87d353fd.gif"/>
+  <img src="https://user-images.githubusercontent.com/103972585/227754336-18a60e3d-d599-46fa-815a-0af98743fabe.gif"/>
 </p>
-
 
 ## 🔨 Technologies used
 Technologies used in this project:
