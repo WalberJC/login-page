@@ -6,7 +6,7 @@
   }
   
   .side-01{
-    background: url(src/assets/Cloudy.svg) no-repeat;
+    background: url(../../assets/Cloudy.svg) no-repeat;
     background-size: cover;
     width: 60%;
     display: flex;
