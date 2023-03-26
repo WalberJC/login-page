@@ -15,7 +15,7 @@
 ## 📈 Progress:
 - [x] Sign In Screen
   - [ ] Verification if exist an account
-- [ ] New Account Screen
+- [x] New Account Screen
   - [ ] Verificatin Password
 
 ---
