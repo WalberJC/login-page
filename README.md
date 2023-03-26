@@ -16,7 +16,7 @@
 - [x] Sign In Screen
   - [ ] Verification if exist an account
 - [x] New Account Screen
-  - [ ] Verificatin Password
+  - [ ] Verification Password
 
 ---
 
