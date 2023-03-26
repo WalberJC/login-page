@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Golos+Text:wght@400;500&family=Open+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Golos Text', sans-serif;;
+}
+
+body,html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./src/assets/bg.svg) no-repeat;
+  background-size: cover;
+}
