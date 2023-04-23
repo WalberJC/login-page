@@ -1,9 +1,6 @@
 import './CreateAccount.css'
-import { inputEmail } from '../../components/inputEmail/inputEmail'
-import { inputPassword } from '../../components/inputPassword/inputPassword'
-import { InputConfPassword } from '../../components/inputPassword/inputPassword'
-import { inputFistEmail } from '../../components/InputName/inputName'
-import { inputLastEmail } from '../../components/InputName/inputName'
+
+import { Input } from '../../components/Input'
 
 const NewAccountCard = document.querySelector('#create-card')
 
@@ -19,17 +16,17 @@ function NewAccount(){
             <h1 class="title-02">Create your account</h1>
             <form>
                 <div class="twoInputs">
-                    ${inputFistEmail()}
-                    ${inputLastEmail()}            
+                    ${Input('Fist Name')}
+                    ${Input('Last Name')}
                 </div>
 
                 <div class="email">
-                    ${inputEmail()}
+                   ${Input('Email')}
                 </div>
 
                 <div class="twoInputs">
-                        ${inputPassword()}
-                        ${InputConfPassword()}
+                    ${Input('Password')}
+                    ${Input('Confirm Password')}
                 </div>
             </form>
 

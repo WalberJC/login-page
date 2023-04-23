@@ -1,7 +1,5 @@
 import './SignIn.css'
-import { inputEmail } from "../../components/inputEmail/inputEmail.js"
-import { inputPassword } from "../../components/inputPassword/inputPassword.js"
-
+import { Input } from '../../components/Input'
 
 export function SignIn(){
     return `
@@ -14,8 +12,8 @@ export function SignIn(){
     <div class="side-02">
         <h1 class="signIn">Sign In</h1>
         <form>
-           ${inputEmail()}
-           ${inputPassword()}
+           ${Input('Email')}
+           ${Input('Senha')}
         </form>
 
         <div class="remember-forgot">

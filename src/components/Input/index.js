@@ -1,10 +1,10 @@
-import './inputEmail.css'
+import './input.css'
 
-export function inputEmail(){
+export function Input(title){
     return `
     <div class="inputGroup">
         <input type="text" name="" id="" required=""  autocomplete="off">
-        <label for="">Email</label>
+        <label for="">${title}</label>
     </div>
     `
 }
